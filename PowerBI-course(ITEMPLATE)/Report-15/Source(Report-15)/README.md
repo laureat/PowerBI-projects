@@ -1,4 +1,4 @@
-The source file is a web-link
+The source file is a web-link.  
 So, the setup is done via Power Query 
 ```sh
 > New Source
