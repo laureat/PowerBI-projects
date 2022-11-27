@@ -1,1 +1,1 @@
-
+![](images/sparklines.png)
