@@ -1,4 +1,4 @@
-# Below graph percentage change difference in stock prices
+# Below graph displays percentage change difference in stock prices from a specified date
 
 The base value is the closing price of a stock for a date selected by user (dashed line).
 
