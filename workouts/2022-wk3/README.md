@@ -6,12 +6,12 @@ The base value is the closing price of a stock for a date selected by user (dash
 
 I found two nuances when doing this dash:
 1) the code for a percentage change measure:  
-##### _% change =   
-##### VAR SelectedDate = SELECTEDVALUE('Reference_date'[Date])  
-##### VAR _start = CALCULATE(MAX('Stocks'[Close]), 'Stocks'[Date] = SelectedDate)  
-##### VAR _end = MAX('Stocks'[Close])  
-##### RETURN  
-##### DIVIDE(_end -_start,_start)_ 
+_% change =   
+VAR SelectedDate = SELECTEDVALUE('Reference_date'[Date])  
+VAR _start = CALCULATE(MAX('Stocks'[Close]), 'Stocks'[Date] = SelectedDate)  
+VAR _end = MAX('Stocks'[Close])  
+RETURN  
+DIVIDE(_end -_start,_start)_ 
 
 2) I neede to turn off the Date/Time Intelligence option in the options settings for the graph to work
 
