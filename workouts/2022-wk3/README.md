@@ -16,4 +16,4 @@ DIVIDE(_end -_start,_start)_
 2) I neede to turn off the Date/Time Intelligence option in the options settings for the graph to work
 
 
-You may find the input data [here]](https://data.world/missdataviz/wow22w3-stocks-jan22/) 
+You may find the input data [here](https://data.world/missdataviz/wow22w3-stocks-jan22/) 
