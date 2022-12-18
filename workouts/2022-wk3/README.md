@@ -11,7 +11,7 @@ VAR SelectedDate = SELECTEDVALUE('Reference_date'[Date])
 VAR _start = CALCULATE(MAX('Stocks'[Close]), 'Stocks'[Date] = SelectedDate)  
 VAR _end = MAX('Stocks'[Close])  
 RETURN  
-DIVIDE(_end -_start,_start) _
+DIVIDE(_end -_start,_start)_
 
 2) I neede to turn off the Date/Time Intelligence option in the options settings for the graph to work
 
